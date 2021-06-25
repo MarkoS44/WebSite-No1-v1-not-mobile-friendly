@@ -1,0 +1,266 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    border-bottom: 2px solid #dc0101;
+}
+.page{
+    
+}
+.footer{
+    
+}
+
+.column{
+   /* border: 1px solid black;*/
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.page .column{
+    height:100vh; 
+}
+
+#logo-i-social{
+    display:flex;
+}
+#logo-holder{
+    flex-grow: 1;
+    
+}
+#social-holder a {
+    text-decoration:none;
+}
+
+#social-holder a img {
+        margin:5px;
+        width:24px;
+        height:24px;
+
+}
+
+#main-menu{
+    display:flex;
+}
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    font-size:20px;
+    display:block;
+    padding:10px 0px;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 500ms;
+}
+#main-menu a:hover,
+#main-menu a.active {
+    color: #ffffff;
+    background-color: #dc0101
+}
+
+#pocetna{
+    text-align: center;
+    color: #ffffff;
+    background-image: url(assets/BackGround/pocetna.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pocetna h1 {
+    font-size:4.5rem;
+    margin-top: 0px;
+    padding-top: calc(50vh - 250px);
+}
+
+.dark-box {
+    background-color:#33333330;
+    border: 1px solid #ffffff;
+    font-size: 2rem;
+    padding:40px;
+}
+#usluge{
+    background-image: url(assets/BackGround/usluge.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#larger-text-1{
+    font-size:20px;
+    font-weight:900;
+    text-decoration: underline;
+}
+#karijera{
+    
+    background-image: url(assets/BackGround/karijera.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.center-page{
+    text-align: center;
+}
+.krugovi{
+    display: flex;
+    margin: 100px 0px;
+    
+}
+.krug-holder{
+    flex-grow:1;
+}
+.krug{
+    background-color: #dc0101;
+    color: #ffffff;
+    font-size:48px;
+    font-weight: bold;
+    display: inline-block;
+    padding:25%;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+}
+.oznaka{
+    font-size:24px;
+    font-weight:bold;
+    margin-top:15px;
+}
+.tehnologije{
+    display:flex;
+    margin: 100px 0px;
+}
+.tehnologija{
+    flex-grow: 1;
+    text-align:center;
+    margin-top: 30px;
+}
+.tehnologija img {
+    width:80px;
+    height:80px;
+}
+.tehnologija p {
+    font-weight: bold;
+}
+h2{
+    font-size:45px;
+}
+#text-1{
+    font-size:25px;
+    text-shadow: 1px 1px 10px #000000;
+    
+}
+#usluge{
+    color:#ffffff;;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+#usluge h2 {
+    padding-top: 40px;
+}
+.service-row{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.service-row > div {
+    
+    text-align: center;
+    position: relative;
+    width:300px;
+    height: 250px;
+    border: 1px solid #ffffff;
+}
+.service-row > div > img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.service-row > div > p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f5f5f5;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding:10px;
+    background-color: #bdbdbd91;
+    margin-bottom: 0px;
+    border-top: 1px solid #ffffff;
+    text-shadow: 1px 2px 10px #000000;
+}
+.holder-image{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 50%);    
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-items: stretch;
+}
+#proizvodi{
+    
+    
+}
+#position{
+    justify-content: center;
+    margin-top:50px;
+}
+#karijera h2 {
+    padding-top:30px;
+    text-align:center;
+    text-shadow: 1px 1px 10px #000000;
+    font-size: 3.2rem;
+    color:#fd9721;
+}
+.column text-2 {
+    margin-top: 30px;
+}
+.career-columns{
+    display: flex;
+}
+.career-list{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.job-description{
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.career-list label{
+    display: block;
+    margin: 10px;
+    border:1px solid #ffffff;
+    background-color:#818080cc;
+    padding:10px;
+    font-weight:bold;
+    font-size:23px;
+    color:#fd9721;
+    text-shadow: 1px 1px 10px #000000;
+
+}
+.job-description input{
+    display: none;
+
+}
+
+.job-description  .job-description-1{
+    display:none;
+}
+.job-description input:checked+.job-description-1{
+    display: block;
+}
+.job-description{
+    margin-left:10px;
+    border: 1px solid #ffffff;
+    background-color:#7e7d7ddc;
+    color:#7edb76;
+    padding:10px;
+    font-weight:bold;
+    font-size:25px;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+
+
